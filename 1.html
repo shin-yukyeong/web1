@@ -1,0 +1,100 @@
+
+<!DOCTYPE HTML>
+
+<head>
+	<title>이민제♥유정민 결혼합니다!</title>
+	<meta http-equiv='content-type' content='text/html; charset=utf-8' />
+	<meta name='viewport' content='user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width' />
+	<meta http-equiv='cache-control' content='no-cache' />
+	<meta http-equiv='pragma' content='no-cache' />
+	<meta http-equiv='expire' content='-1' />
+	<link rel='stylesheet' href='/html/6226_m/css/style.css?v=3' type='text/css' />
+	<script type='text/javascript' src='/js/functions.js'></script>
+	<script type='text/javascript' src='/js/kakao.link.js'></script>
+	<script type='text/javascript'>
+	</script>
+</head>
+<body>
+	<head>
+
+<meta property="og:image" content="http://m.dml.kr/html/6226_m/img/main.jpg"/>
+
+</head>
+
+
+
+<!-- 인트로 -->
+<div id='intro'><img src='002-DA9_2501-2.jpg' alt='인트로' width='33%'/></div>
+
+<!-- 동영상 -->
+<div id='video-capture'><a href='http://va.dml.kr/show.dml/17447.mp4'><img src='/html/6226_m/img/video-capture.png' alt='동영상 캡쳐' /></a></div>
+
+<!-- 소개글 -->
+<div id='invitation'><img src='/html/6226_m/img/invitation.png' alt='소개글' /></div>
+
+<!-- 결혼사진 보기 -->
+<div id='photo-wedding'><a href='/html/6226_m/gallery.html'><img src='/html/6226_m/img/photo-wedding.png' alt='결혼사진 보기' /></a></div>
+
+<!-- 오시는길 -->
+<div id='address-view'>
+	<a href='https://map.naver.com/local/siteview.nhn?code=13434604' target='_blank'>
+	<img src='/html/6226_m/img/address-view.png' alt='오시는길' /></a>
+</div>
+
+<!-- 퀵메뉴 -->
+<div id='quick'>
+	<div class='dynamic-table'>
+	<!-- 퀵메뉴 버튼들 시작 -->
+		<a><img src='/html/6226_m/img/quick/title.png' alt='퀵메뉴' width='99%' /></a>
+
+		<li><p><a href='tel:010-2416-1272'><img src='/html/6226_m/img/quick/01.png' alt='신랑에게전화' width='33%' /></a></li>
+		<li><a href='tel:010-5634-0358'><img src='/html/6226_m/img/quick/02.png' alt='신부에게전화' width='33%' /></a></li>
+        		<a href='/html/6226_m/gallery.html'><img src='/html/6226_m/img/quick/06.png' alt='갤러리' width='33%' /></a>
+
+		<a href='sms:010-2416-1272'><img src='/html/6226_m/img/quick/04.png' alt='신랑에게문자' width='33%' /></a>
+		<a href='sms:010-5634-0358'><img src='/html/6226_m/img/quick/05.png' alt='신부에게문자' width='33%' /></a>
+
+        <a href='javascript:;' onclick="facebook('');"><img src='/html/6226_m/img/quick/10.png' alt='페이스북' width='33%' /></a>
+
+
+		<a href='javascript:;' id='kakao-link-btn'><img src='/html/6226_m/img/quick/07.png' alt='카카오톡' width='99%' /></a></p>
+
+	<!-- 퀵메뉴 버튼들 끝 -->
+	</div>
+
+</div>
+
+<script src='//developers.kakao.com/sdk/js/kakao.min.js'></script>
+<script type='text/javascript'>
+
+	var title = '이재복♥유정민 결혼합니다!';
+	var description = '';// 콘텐츠의 상세 설명(생략가능)
+	var image = 'http://m.dml.kr/html/6226_m/img/main.jpg';
+	var url = 'http://m.dml.kr/html/6226_m';
+
+	// // 사용할 앱의 JavaScript 키를 설정해 주세요.
+	Kakao.init('016ef1b836d92176f559a195be27f2a6');
+	// // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+	Kakao.Link.createDefaultButton({
+		container: '#kakao-link-btn',
+		objectType: 'feed',
+		content: {
+			title: title,
+			description: description,
+			imageUrl: image,
+			link: { mobileWebUrl: url, webUrl: url }
+		},
+		buttons: [
+			{
+				title: '웹으로 보기',
+				link: { mobileWebUrl: url, webUrl: url }
+			},
+			{
+				title: '앱으로 보기',
+				link: { mobileWebUrl: url, webUrl: url }
+			}
+		]
+	});
+</script>
+</body>
+</html>
